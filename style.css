@@ -2,8 +2,8 @@ body{
     background-color: black;
 }
 :root {
-    --thempcolor: #d96ff398;
-    --shadow: #963e91c0;
+    --thempcolor: #62e4f598;
+    --shadow: #2367e6c0;
 }
 
 * {
@@ -77,10 +77,26 @@ p{
 }
 .rdbtn{
     background-color: var(--thempcolor);
-    color: #cd00f7;;
+    color: #090057;;
     border-color:#f762f704;
     display: flex;
     margin: auto;
     opacity: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 410px){
+    body{
+        background-color: white;
+    }
+    .box{
+        background-color: black;
+    }
+    h2,button,p{
+        word-wrap: break-word;
+        color: white;
+    }
+    .btn1{
+        color: black;
+        background-color: white;
+    }
 }
